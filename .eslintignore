@@ -21,8 +21,7 @@ experimental/babel-preset-env/test/debug-fixtures
 packages/babel-standalone/babel.js
 packages/babel-standalone/babel.min.js
 packages/babylon/build
-packages/babylon/.nyc_output
-packages/babylon/coverage
+packages/babylon/scripts
 packages/babylon/test/expressions
 
 # Prettier tries to insert trailing commas in function calls, which Node.js
