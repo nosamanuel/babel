@@ -148,27 +148,6 @@ $ BABEL_ENV=cov make build
 $ ./scripts/test-cov.sh
 ```
 
-#### Running one Babylon test
-
-To run only a single test, add `"only": true` to the `options.json` inside any test fixture folder (you may have to create the file if it doesn't exist).
-For example, let's say we want to only run the test for the [`test/fixtures/comments/basic/shebang-import`](https://github.com/babel/babel/tree/7.0/packages/babylon/test/fixtures/comments/basic/shebang-import) fixture.
-
-Add `"only": true` to its `options.json`:
-
-```json
-{
-  "sourceType": "module",
-  "only": true
-}
-```
-
-Then, run the tests using the same command as before:
-
-```bash
-yarn run test-only
-```
-
-
 #### Troubleshooting Tests
 
 In case you're not able to reproduce an error on CI locally, it may be due to
