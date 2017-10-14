@@ -23,6 +23,8 @@
     "node": ">=4.2.0"
   },
   "devDependencies": {
+    "babel-helper-fixtures": "7.0.0-alpha.18",
+    "babel-plugin-external-helpers": "7.0.0-alpha.18",
     "chalk": "^2.0.0",
     "cross-env": "^5.0.0",
     "flow-bin": "^0.56.0",
