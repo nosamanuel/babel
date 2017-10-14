@@ -12,9 +12,14 @@ SOURCES = packages codemods experimental
 build: clean
 	make clean-lib
 	./node_modules/.bin/gulp build
+	make build-babylon
 ifneq ("$(BABEL_ENV)", "cov")
 	make build-standalone
 endif
+
+build-babylon:
+	cd packages/babylon; \
+	./node_modules/.bin/rollup -c
 
 build-standalone:
 	./node_modules/.bin/gulp build-babel-standalone

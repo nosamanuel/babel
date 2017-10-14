@@ -33,6 +33,7 @@
     "flow-bin": "^0.53.1",
     "gulp": "^3.9.0",
     "gulp-babel": "^7.0.0",
+    "gulp-filter": "^5.0.1",
     "gulp-newer": "^1.0.0",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
