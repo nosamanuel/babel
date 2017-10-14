@@ -11,8 +11,10 @@ For issue references: Add a comma-separated list of a [closing word](https://hel
 | Patch: Bug Fix?          | 
 | Major: Breaking Change?  | 
 | Minor: New Feature?      | 
+| Spec compliancy?         |
 | Tests Added + Pass?      | Yes
 | Documentation PR         | <!-- If so, add `[skip ci]` to your commit message to skip CI -->
 | Any Dependency Changes?  | 
+| License                  | MIT
 
 <!-- Describe your changes below in as much detail as possible -->
